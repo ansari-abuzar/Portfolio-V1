@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abuzar's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="header-bar">
+      <div class="title">
+        <h1>Abuzar Ansari</h1>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-items"><a href="#about">About Me</a></li>
+          <li class="nav-items"><a href="#skills">Skills</a></li>
+          <li class="nav-items"><a href="#projects">Projects</a></li>
+          <li class="nav-items"><a href="#msg">Leave a Message!</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="intro">
+          <h1>Hi, I'm <span>Abuzar</span>.</h1>
+          <p>
+            <code>&lt;h1&gt; "Hello, World!" &lt;/h1&gt;</code>
+          </p>
+        </div>
+        <div class="pfp-container">
+          <img src="Images/me-1.png" alt="Abuzar" class="pfp" />
+        </div>
+        <p class="intro-para">
+          Hi, I'm Abuzar, a second-year Computer Engineering student pursuing
+          Bacherlor's in Technology degree at Aligarh Muslim University. <br />
+          Beyond academics, I enjoy playing volleyball and football and creating
+          content on YouTube. I also have experience working with 3D design and
+          modeling using Blender.
+        </p>
+        <div class="links">
+          <!-- Add YouTube Later. -->
+          <a href="https://github.com/ansari-abuzar" target="_blank"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/abuzar-ansari0207/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/_abuzar.ansari?igsh=MXExdGpqZmdjOWJjNw=="
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="mailto:abuzar.ansari.0207@gmail.com" target="_blank"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="skill-container">
+        <div class="skill-title">
+          <h2>SKILLS</h2>
+          <p>Creating Seamless Frontend and Clean Coding.</p>
+        </div>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Core Skills</h3>
+            <div class="tags">
+              <span>Frontend Dev</span>
+              <span>Responsive Web Design</span>
+              <span>Component Based Design</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Technologies</h3>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>React</span>
+              <span>Python</span>
+              <span>C++</span>
+              <span>Da-Vinci Resolve</span>
+              <span>Blender</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <div class="tags">
+              <span>YouTube</span>
+              <span>GitHub</span>
+              <span>MDN</span>
+              <span>Discord</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="projects">
+      <div class="works-container">
+        <div class="work-title">
+          <p>Browse My Recent</p>
+          <h2>PROJECTS</h2>
+        </div>
+        <div class="works-grid">
+          <div class="work-card">
+            <img
+              src="Images/Rock-Paper-Scissors Game.png"
+              alt="Rock Paper Scissor Game"
+            />
+            <p class="subtitle">
+              Challenge the computer in this classic game built with JavaScript.
+            </p>
+            <div class="buttons">
+              <button class="live">Live Demo</button>
+              <button
+                class="code"
+                onclick="
+                  window.location.href =
+                    'https://github.com/ansari-abuzar/Rock-Paper-Scissors.git'
+                "
+              >
+                Source Code
+              </button>
+            </div>
+          </div>
+          <div class="work-card">
+            <img
+              src="Images/Memory Card Game.png"
+              alt="Rock Paper Scissor Game"
+            />
+            <p class="subtitle">
+              Test your memory by matching pairs in this interactive React game.
+            </p>
+            <div class="buttons">
+              <button class="live">Live</button>
+              <button
+                class="code"
+                onclick="
+                  window.location.href =
+                    'https://github.com/ansari-abuzar/Memory-Game.git'
+                "
+              >
+                Source Code
+              </button>
+            </div>
+          </div>
+          <div class="work-card">
+            <img
+              src="Images/Currency Converter.png"
+              alt="Rock Paper Scissor Game"
+            />
+            <p class="subtitle">
+              A currency conversion tool powered by live exchange rate APIs.
+            </p>
+            <div class="buttons">
+              <button class="live">Live</button>
+              <button
+                class="code"
+                onclick="
+                  window.location.href =
+                    'https://github.com/ansari-abuzar/Currency-Converter.git'
+                "
+              >
+                Source Code
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="msg" id="msg">
+      <div class="msg-title">
+        <h2>Leave a Message</h2>
+        <p>Coming Soon :)</p>
+      </div>
+    </section>
+    <footer>
+      <p>© 2026 Abuzar Ansari. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
