@@ -40,13 +40,41 @@ body {
   top: 0;
   border-bottom: 1px solid rgba(80, 81, 79, 0.08);
   backdrop-filter: blur(5px);
-  z-index: 1;
+  z-index: 999;
 }
 
 .title h1 {
   font-family: "Space Grotesk";
   font-size: 3rem;
   padding: 0.5em 1em;
+}
+
+.sidebar {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 320px;
+  z-index: 999;
+  background-color: rgba(231, 239, 237, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1em;
+  text-align: left;
+  padding: 1em;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.menu-button {
+  display: none;
 }
 
 /*=========================
@@ -362,7 +390,7 @@ body {
   font-size: 1rem;
 }
 
-footer{
+footer {
   background-color: #50514f;
   color: #f8f8f6;
   text-align: center;
