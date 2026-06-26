@@ -1,0 +1,58 @@
+/*=========================
+    RESPONSIVE DESIGN
+  =========================
+        MOBILES*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title h1 {
+    font-size: 1.8rem;
+    padding: 0.5em;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .about {
+    padding-bottom: 2em;
+  }
+
+  .pfp-container {
+    width: 15em;
+  }
+
+  .intro-para {
+    font-size: 0.9rem;
+  }
+
+  .links {
+    font-size: 2rem;
+  }
+
+  .works-grid {
+    width: 100%;
+  }
+
+  .works-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .work-card {
+    width: 300px;
+  }
+
+  .work-card img {
+    width: 100%;
+  }
+}
+
+/*=========================
+    RESPONSIVE DESIGN
+  =========================
+        TABLETS*/
