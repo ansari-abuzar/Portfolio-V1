@@ -33,11 +33,13 @@
     font-size: 2rem;
   }
 
-  .works-grid {
-    width: 100%;
+  .work {
+    padding-bottom: 2em;
   }
 
   .works-grid {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
