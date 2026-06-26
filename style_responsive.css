@@ -26,11 +26,19 @@
   }
 
   .intro-para {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .links {
     font-size: 2rem;
+  }
+
+  #skills {
+    scroll-margin-top: 4em;
+  }
+
+  #projects {
+    scroll-margin-top: 4em;
   }
 
   .work {
@@ -51,9 +59,8 @@
   .work-card img {
     width: 100%;
   }
-}
 
-/*=========================
-    RESPONSIVE DESIGN
-  =========================
-        TABLETS*/
+  #msg {
+    scroll-margin-top: 4em;
+  }
+}
