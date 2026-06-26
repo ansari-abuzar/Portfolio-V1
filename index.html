@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abuzar's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -19,11 +20,50 @@
         <h1>Abuzar Ansari</h1>
       </div>
       <nav class="navbar">
-        <ul class="nav-list">
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#50514f"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                /></svg
+            ></a>
+          </li>
           <li class="nav-items"><a href="#about">About Me</a></li>
           <li class="nav-items"><a href="#skills">Skills</a></li>
           <li class="nav-items"><a href="#projects">Projects</a></li>
           <li class="nav-items"><a href="#msg">Leave a Message!</a></li>
+        </ul>
+
+        <ul class="nav-list">
+          <li class="nav-items hideOnMobile"><a href="#about">About Me</a></li>
+          <li class="nav-items hideOnMobile"><a href="#skills">Skills</a></li>
+          <li class="nav-items hideOnMobile">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-items hideOnMobile">
+            <a href="#msg">Leave a Message!</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#50514f"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
         </ul>
       </nav>
     </section>
@@ -185,5 +225,6 @@
     <footer>
       <p>© 2026 Abuzar Ansari. All Rights Reserved.</p>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
