@@ -17,6 +17,10 @@
     display: block;
   }
 
+  .sidebar{
+    width: 100%;
+  }
+
   .about {
     padding-bottom: 2em;
   }
